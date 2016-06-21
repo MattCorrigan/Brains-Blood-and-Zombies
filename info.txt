@@ -1,0 +1,28 @@
+MONK
+whole dimensions : 48 x 242
+sections : 1 x 4
+one section : 48 * 60.5
+
+ZOMBIE
+whole dimensions : 384 x 256
+sections : 12 x 8
+one section : 32 x 32
+
+PLAYER
+whole dimensions : 1650 x 468
+sections : 11 x 4
+one section : 150 x 117
+
+TILE
+whole dimensions : 512 x 384
+sections : 16 x 12
+one section : 32 x 32
+
+JAR EXPORTATION
+set path=C:\Program Files\Java\jdk1.7.0_45\bin
+del *.jar *.class
+javac *.java
+jar cvfe zombie.jar Main *.class *.wav *.png *.txt
+
+EXE CREATION
+set path=C:\Windows\winsxs\x86_netfx35linq-csharp_31bf3856ad364e35_6.1.7601.17514_none_193318f5726bf1d7
